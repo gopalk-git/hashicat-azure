@@ -1,7 +1,6 @@
 resource "azurerm_resource_group" "test" {
-  name     = "my-resources"
-  location = "West Europe"
-  resource_group_name = "azurerm_resource_group"
+  name     = "gopalkarmegam"
+  location = "eastus"
 }
 
 module "network" {
